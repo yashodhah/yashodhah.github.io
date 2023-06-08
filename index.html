@@ -18,7 +18,7 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <link rel="stylesheet" href="css/styles-timeline.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -240,7 +240,7 @@
             <li class="timeline-inverted">
                 <div class="timeline-image">
                     <h4>
-                      root
+                        root
                     </h4>
                 </div>
             </li>
@@ -319,84 +319,126 @@
     <div class="container">
         <div class="section-title text-left">
             <h3>Blog</h3>
-            <p> I just started blogging. I aim to share my personal journey, highlighting the challenges I have faced
-                along the way.</p>
+            <p> I have recently started blogging with the aim of sharing my personal journey and highlighting the challenges I have faced along the way.</p>
         </div><!-- end title -->
+
+        <!--        <div class="row">-->
+        <!--            <div class="col-md-4 col-sm-6 col-lg-4">-->
+        <!--                <div class="post-box">-->
+        <!--                    <div class="post-thumb">-->
+        <!--                        <img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img"/>-->
+        <!--                        &lt;!&ndash;							<div class="date">&ndash;&gt;-->
+        <!--                        &lt;!&ndash;								<span>06</span>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;								<span>Aug</span>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;							</div>&ndash;&gt;-->
+        <!--                    </div>-->
+        <!--                    <div class="post-info">-->
+        <!--                        <h4>Enforcing machine-to-machine authentication for services behind an AWS ALB with OIDC.</h4>-->
+        <!--                        &lt;!&ndash;							<ul>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                                <li>by admin</li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                                <li>Apr 21, 2018</li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                                <li><a href="#"><b> Comments</b></a></li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            </ul>&ndash;&gt;-->
+        <!--                        <p>-->
+        <!--                            AWS supports a variety of authentication mechanisms, including mTLS, OpenID Connect (OIDC),-->
+        <!--                            and AWS Signature v4 that can be used for m2m authentication. In this blog post, we will-->
+        <!--                            explore potential-->
+        <!--                            approaches to implement m2m authentication using OIDC as the mechanism for the services-->
+        <!--                            behind an AWS Application load balancer (ALB).-->
+        <!--                        </p>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="col-md-4 col-sm-6 col-lg-4">-->
+        <!--                <div class="post-box">-->
+        <!--                    <div class="post-thumb">-->
+        <!--                        <img src="uploads/blog-02.webp" class="img-fluid" alt="post-img"/>-->
+        <!--                        &lt;!&ndash;                        <div class="date">&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <span>06</span>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <span>Aug</span>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                        </div>&ndash;&gt;-->
+        <!--                    </div>-->
+        <!--                    <div class="post-info">-->
+        <!--                        <h4>Implementing machine-to-machine authentication for services behind an AWS ALB with-->
+        <!--                            OIDC.</h4>-->
+        <!--                        &lt;!&ndash;                        <ul>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <li>by admin</li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <li>Apr 21, 2018</li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                            <li><a href="#"><b> Comments</b></a></li>&ndash;&gt;-->
+        <!--                        &lt;!&ndash;                        </ul>&ndash;&gt;-->
+        <!--                        <p>This is part of a series. In Part 1, we delved into the possibilities of enforcing-->
+        <!--                            machine-to-machine (m2m) authentication using OIDC (OpenID Connect) at a high level when-->
+        <!--                            utilizing an AWS ALB. Now, in Part 2,-->
+        <!--                            we are ready to take our exploration to the next level and implement some of the solutions-->
+        <!--                            we discussed.</p>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            &lt;!&ndash;            <div class="col-md-4 col-sm-6 col-lg-4">&ndash;&gt;-->
+        <!--            &lt;!&ndash;                <div class="post-box">&ndash;&gt;-->
+        <!--            &lt;!&ndash;                    <div class="post-thumb">&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        <img src="uploads/blog-03.jpg" class="img-fluid" alt="post-img"/>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        <div class="date">&ndash;&gt;-->
+        <!--            &lt;!&ndash;                            <span>06</span>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                            <span>Aug</span>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        </div>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                    </div>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                    <div class="post-info">&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        <h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        <ul>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                            <li>by admin</li>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                            <li>Apr 21, 2018</li>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                            <li><a href="#"><b> Comments</b></a></li>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        </ul>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at&ndash;&gt;-->
+        <!--            &lt;!&ndash;                            eget quam. Integer ultricies et magna quis.</p>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                    </div>&ndash;&gt;-->
+        <!--            &lt;!&ndash;                </div>&ndash;&gt;-->
+        <!--            &lt;!&ndash;            </div>&ndash;&gt;-->
+        <!--        </div>-->
 
         <div class="row">
             <div class="col-md-4 col-sm-6 col-lg-4">
-                <div class="post-box">
-                    <div class="post-thumb">
-                        <img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img"/>
-                        <!--							<div class="date">-->
-                        <!--								<span>06</span>-->
-                        <!--								<span>Aug</span>-->
-                        <!--							</div>-->
+                <a href="https://medium.com/towards-aws/secure-your-microservices-communication-implementing-machine-to-machine-authentication-with-aws-4f3e0578d73"
+                   target="_blank">
+                    <div class="post-box">
+                        <div class="post-thumb">
+                            <img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img"/>
+                        </div>
+                        <div class="post-info">
+                            <h4>Enforcing machine-to-machine authentication for services behind an AWS ALB with
+                                OIDC.</h4>
+                            <p>
+                                AWS supports a variety of authentication mechanisms, including mTLS, OpenID Connect
+                                (OIDC),
+                                and AWS Signature v4 that can be used for m2m authentication. In this blog post, we will
+                                explore potential approaches to implement m2m authentication using OIDC as the mechanism
+                                for the services behind an AWS Application load balancer (ALB).
+                            </p>
+                        </div>
                     </div>
-                    <div class="post-info">
-                        <h4>Enforcing machine-to-machine authentication for services behind an AWS ALB with OIDC.</h4>
-                        <!--							<ul>-->
-                        <!--                                <li>by admin</li>-->
-                        <!--                                <li>Apr 21, 2018</li>-->
-                        <!--                                <li><a href="#"><b> Comments</b></a></li>-->
-                        <!--                            </ul>-->
-                        <p>
-                            AWS supports a variety of authentication mechanisms, including mTLS, OpenID Connect (OIDC),
-                            and AWS Signature v4 that can be used for m2m authentication. In this blog post, we will
-                            explore potential
-                            approaches to implement m2m authentication using OIDC as the mechanism for the services
-                            behind an AWS Application load balancer (ALB).
-                        </p>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-4 col-sm-6 col-lg-4">
-                <div class="post-box">
-                    <div class="post-thumb">
-                        <img src="uploads/blog-02.webp" class="img-fluid" alt="post-img"/>
-                        <!--                        <div class="date">-->
-                        <!--                            <span>06</span>-->
-                        <!--                            <span>Aug</span>-->
-                        <!--                        </div>-->
+                <a href="https://medium.com/@hettiarachchi.yashodha/enforcing-machine-to-machine-authentication-for-services-behind-an-aws-alb-part-2-e06707e6f366"
+                   target="_blank">
+                    <div class="post-box">
+                        <div class="post-thumb">
+                            <img src="uploads/blog-02.webp" class="img-fluid" alt="post-img"/>
+                        </div>
+                        <div class="post-info">
+                            <h4>Implementing machine-to-machine authentication for services behind an AWS ALB with
+                                OIDC.</h4>
+                            <p>This is part of a series. In Part 1, we delved into the possibilities of enforcing
+                                machine-to-machine (m2m) authentication using OIDC (OpenID Connect) at a high level when
+                                utilizing an AWS ALB. Now, in Part 2, we are ready to take our exploration to the next
+                                level and implement some of the solutions we discussed.</p>
+                        </div>
                     </div>
-                    <div class="post-info">
-                        <h4>Implementing machine-to-machine authentication for services behind an AWS ALB with
-                            OIDC.</h4>
-                        <!--                        <ul>-->
-                        <!--                            <li>by admin</li>-->
-                        <!--                            <li>Apr 21, 2018</li>-->
-                        <!--                            <li><a href="#"><b> Comments</b></a></li>-->
-                        <!--                        </ul>-->
-                        <p>This is part of a series. In Part 1, we delved into the possibilities of enforcing
-                            machine-to-machine (m2m) authentication using OIDC (OpenID Connect) at a high level when
-                            utilizing an AWS ALB. Now, in Part 2,
-                            we are ready to take our exploration to the next level and implement some of the solutions
-                            we discussed.</p>
-                    </div>
-                </div>
+                </a>
             </div>
-            <!--            <div class="col-md-4 col-sm-6 col-lg-4">-->
-            <!--                <div class="post-box">-->
-            <!--                    <div class="post-thumb">-->
-            <!--                        <img src="uploads/blog-03.jpg" class="img-fluid" alt="post-img"/>-->
-            <!--                        <div class="date">-->
-            <!--                            <span>06</span>-->
-            <!--                            <span>Aug</span>-->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                    <div class="post-info">-->
-            <!--                        <h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>-->
-            <!--                        <ul>-->
-            <!--                            <li>by admin</li>-->
-            <!--                            <li>Apr 21, 2018</li>-->
-            <!--                            <li><a href="#"><b> Comments</b></a></li>-->
-            <!--                        </ul>-->
-            <!--                        <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at-->
-            <!--                            eget quam. Integer ultricies et magna quis.</p>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--            </div>-->
         </div>
+
 
     </div>
 </div>
@@ -419,59 +461,51 @@
                 <!-- Grid container -->
                 <!-- Section: Social media -->
                 <section class="mb-4">
-                    <!-- Facebook -->
-                    <a
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #3b5998;"
-                            href="#!"
-                            role="button"
-                    ><i class="fab fa-facebook-f"></i
-                    ></a>
-
                     <!-- Twitter -->
-                    <a
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #55acee;"
-                            href="#!"
-                            role="button"
-                    ><i class="fab fa-twitter"></i
-                    ></a>
-
-                    <!-- Google -->
-                    <a
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #dd4b39;"
-                            href="#!"
-                            role="button"
-                    ><i class="fab fa-google"></i
-                    ></a>
-
-                    <!-- Instagram -->
-                    <a
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #ac2bac;"
-                            href="#!"
-                            role="button"
-                    ><i class="fab fa-instagram"></i
-                    ></a>
+                    <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+                       href="https://twitter.com/yashodh_h" role="button"
+                       target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
 
                     <!-- Linkedin -->
-                    <a
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #0082ca;"
-                            href="#!"
-                            role="button"
-                    ><i class="fab fa-linkedin-in"></i
-                    ></a>
+                    <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                       href="https://www.linkedin.com/in/ydhettiarachchi" role="button" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
                     <!-- Github -->
-                    <a
-                            class="btn text-white btn-floating m-1"
-                            style="background-color: #333333;"
-                            href="#!"
-                            role="button"
-                    ><i class="fab fa-github"></i
-                    ></a>
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                       href="https://github.com/yashodhah" role="button" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <!-- Gitlab -->
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                       href="https://gitlab.com/yashodha_h" role="button" target="_blank">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+
+                    <!-- StackOverflow -->
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                       href="https://stackoverflow.com/users/5308115/yashodha-h" role="button" target="_blank">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
+
+                    <!-- Medium -->
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                       href="https://medium.com/@hettiarachchi.yashodha" role="button" target="_blank">
+                        <i class="fab fa-medium"></i>
+                    </a>
+
+                    <!-- Google Scholar -->
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                       href="https://scholar.google.com/citations?user=mRAvlYAAAAAJ&hl=en" role="button"
+                       target="_blank">
+                        <i class="ai ai-google-scholar-square"></i>
+                    </a>
                 </section>
+
                 <!-- Section: Social media -->
             </footer>
         </div>
@@ -501,6 +535,7 @@
 <!-- ALL PLUGINS -->
 <script src="js/custom.js"></script>
 <script src="js/jquery.vide.js"></script>
+<script src="https://kit.fontawesome.com/1cb0301953.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
